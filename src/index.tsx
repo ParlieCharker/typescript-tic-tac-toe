@@ -7,13 +7,13 @@ type SquareProps = {
 };
 class Square extends React.Component<SquareProps> {
   render() {
-    return <button className="square">{/* TODO */}</button>;
+    return <button className="square">{this.props.value}</button>;
   }
 }
 
 class Board extends React.Component {
-  renderSquare(i) {
-    return <Square />;
+  renderSquare(i: number) {
+    return <Square value={i} />;
   }
 
   render() {

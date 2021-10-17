@@ -2,7 +2,10 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 import "./index.css";
 
-class Square extends React.Component {
+type SquareProps = {
+  value: number;
+};
+class Square extends React.Component<SquareProps> {
   render() {
     return <button className="square">{/* TODO */}</button>;
   }

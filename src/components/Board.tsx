@@ -1,8 +1,8 @@
 import * as React from "react";
 
 import { calculateWinner } from "../Modules/calculateWinner";
-import { Square } from "./Square";
 import { BoardState } from "../types";
+import { Square } from "./Square";
 
 type BoardProps = {};
 export class Board extends React.Component<BoardProps, BoardState> {

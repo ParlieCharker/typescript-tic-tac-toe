@@ -15,8 +15,10 @@ const Square = ({ value, onClick }: SquareProps) => {
   );
 };
 
+type squares = "X"[] | "O"[] | null[];
+
 type BoardState = {
-  squares: "X"[] | "O"[] | null[];
+  squares: squares;
   xIsNext: boolean;
 };
 

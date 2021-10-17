@@ -17,12 +17,14 @@ const Square = ({ value, onClick }: SquareProps) => {
 
 type BoardState = {
   squares: "X"[] | "O"[] | null[];
+  xIsNext: boolean;
 };
 
 type BoardProps = {};
 class Board extends React.Component<BoardProps, BoardState> {
   state: BoardState = {
     squares: Array(9).fill(null),
+    xIsNext: true,
   };
   renderSquare(i: number) {
     return (
@@ -35,8 +37,8 @@ class Board extends React.Component<BoardProps, BoardState> {
 
   handleClick(i: number) {
     const squares = this.state.squares.slice();
-    squares[i] = "X";
-    this.setState({ squares: squares });
+    squares[i] = this.state.xIsNext ? "X" : "O";
+    this.setState({ squares: squares, xIsNext: !this.state.xIsNext });
   }
 
   render() {

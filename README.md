@@ -1,7 +1,15 @@
-# Getting Started with Create React App
+# React Tic Tac Toe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The purpose of this project is to build react's [Tic-tac-toe tutorial](https://reactjs.org/tutorial/tutorial.html) in TSX instead of building it in JSX.
 
+##### Table of Contents
+- [React Tic Tac Toe](#react-tic-tac-toe)
+        - [Table of Contents](#table-of-contents)
+  - [Available Scripts](#available-scripts)
+    - [`yarn start`](#yarn-start)
+    - [`yarn test`](#yarn-test)
+    - [`yarn build`](#yarn-build)
+    - [`yarn eject`](#yarn-eject)
 ## Available Scripts
 
 In the project directory, you can run:
@@ -39,8 +47,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

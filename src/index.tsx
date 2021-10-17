@@ -40,7 +40,9 @@ class Board extends React.Component<BoardProps, BoardState> {
   }
 
   handleClick(i: number) {
-    console.log(i + "square got clicked");
+    const squares = this.state.squares.slice();
+    squares[i] = "X";
+    this.setState({ squares: squares });
   }
 
   render() {

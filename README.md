@@ -1,7 +1,7 @@
 # React Tic Tac Toe
 
 The purpose of this project is to build react's [Tic-tac-toe tutorial](https://reactjs.org/tutorial/tutorial.html) in TSX instead of building it in JSX.
-
+You can view the live project [here](https://kleinhorn.github.io/typescript-tic-tac-toe/)
 ##### Table of Contents
 - [React Tic Tac Toe](#react-tic-tac-toe)
         - [Table of Contents](#table-of-contents)
